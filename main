@@ -3,6 +3,7 @@ sudo apt upgrade -y
 sudo apt install python3 python3-pip neofetch docker.io nano vim git ffmpeg -y
 sudo cp /usr/bin/clear /usr/bin/cls
 sudo curl -L "https://github.com/docker/compose/releases/download/1.28.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+touch ~/.hushlogin
 sh -c "$(curl -fsSL https://starship.rs/install.sh)"
 git clone https://github.com/GameTec-live/apt-repo.git
 cd apt-repo
