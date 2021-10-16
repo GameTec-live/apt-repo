@@ -1,0 +1,13 @@
+# Inserts a blank line between shell prompts
+add_newline = true
+
+# show username
+[username]
+style_user = "green bold"
+style_root = "black bold"
+format = "[$user]($style) "
+disabled = false
+show_always = true
+
+[package]
+disabled = true
